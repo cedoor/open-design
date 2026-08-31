@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "open-design",
+      "devDependencies": {
+        "agent-browser": "^0.35.2",
+      },
+    },
+  },
+  "packages": {
+    "agent-browser": ["agent-browser@0.35.2", "", { "bin": { "agent-browser": "./bin/agent-browser.js" } }, "sha512-1JvgqC1NZrCTcIsdPB5T51XgVtF70WEgH46XszhRJdCBwuab0jV4mySLgtoNKvlb/X8PR5dce/8Regd0aUANZA=="],
+  }
+}

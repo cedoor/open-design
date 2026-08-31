@@ -1,0 +1,12 @@
+{
+  "name": "open-design",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "harness:update": "bun scripts/update-harness.ts",
+    "harness:download": "bun scripts/update-harness.ts"
+  },
+  "devDependencies": {
+    "agent-browser": "^0.35.2"
+  }
+}

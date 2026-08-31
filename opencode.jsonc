@@ -1,0 +1,20 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "designer",
+  "agent": {
+    "designer": { "mode": "primary", "permission": "allow" }
+  },
+  "skills": {
+    "paths": ["open-design/skills"]
+  },
+  "references": {
+    "design-systems": {
+      "path": "open-design/design-systems",
+      "description": "Curated DESIGN.md brand systems (Stripe, Linear, Apple, Shopify...) to apply to generated UI"
+    },
+    "design-templates": {
+      "path": "open-design/design-templates",
+      "description": "Rendering blueprints (deck templates, web prototype templates, HyperFrames) used by the OpenDesign skills"
+    }
+  }
+}

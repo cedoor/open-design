@@ -1,0 +1,5 @@
+# Vendored OpenDesign harness (update via `bun run harness:update`, do not commit)
+open-design/
+
+# Dependencies
+node_modules/
