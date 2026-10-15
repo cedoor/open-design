@@ -3,3 +3,6 @@ open-design/
 
 # Dependencies
 node_modules/
+
+# Generated prototypes (local only, do not commit)
+prototypes/
